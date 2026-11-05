@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Professional Portfolio</title>
+</head>
+<body>
+
+    <!-- Header & Navbar with Local Links -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Hello! I am a passionate developer building creative and structured web applications.</p>
+        </section>
+
+        <hr>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a junior frontend developer currently polishing my skills in HTML5, CSS3, and JavaScript. I enjoy creating modern web pages that prioritize accessibility, semantic structure, and great user experiences.</p>
+        </section>
+
+        <hr>
+
+        <!-- Work Section (Using Tables/Lists) -->
+        <section id="work">
+            <h2>My Work & Projects</h2>
+            <p>Here is a summary of the projects I have built recently:</p>
+            
+            <table border="1" cellpadding="10" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Project Name</th>
+                        <th>Technologies Used</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Personal Portfolio</td>
+                        <td>HTML5, CSS3</td>
+                        <td>A clean, single-page website showcasing my skills and contact details.</td>
+                    </tr>
+                    <tr>
+                        <td>E-commerce Landing Page</td>
+                        <td>HTML5, Tailwind CSS</td>
+                        <td>A fully responsive layout designed for a modern retail brand.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+        <!-- Resume Section (Using Media Elements) -->
+        <section id="resume">
+            <h2>My Resume</h2>
+            <p>Below is a brief summary of my qualifications, along with an introductory video presentation.</p>
+            
+            <h3>Core Skills</h3>
+            <ul>
+                <li>Semantic HTML5 & Accessibility</li>
+                <li>Responsive Web Design</li>
+                <li>Version Control (Git & GitHub)</li>
+            </ul>
+
+            <h3>Video Introduction</h3>
+            <!-- Placeholder Video Tag as requested by the prompt criteria -->
+            <video controls width="480">
+                <source src="presentation.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <hr>
+
+        <!-- Contact Section (Using HTML Forms) -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out using the form below, and I will get back to you as soon as possible.</p>
+            
+            <form action="#" method="POST">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Your Name">
+                </div>
+                <br>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Your Email">
+                </div>
+                <br>
+                <div>
+                    <label for="message">Message:</label>
+                    <br>
+                    <textarea id="message" name="message" rows="5" cols="30" required placeholder="Type your message here..."></textarea>
+                </div>
+                <br>
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <!-- Page Footer -->
+    <footer>
+        <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
